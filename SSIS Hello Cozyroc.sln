@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS Hello Cozyroc", "SSIS Hello Cozyroc.dtproj", "{567F4684-FCCD-47B9-AB91-A0526D682163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567F4684-FCCD-47B9-AB91-A0526D682163}.Development|Default.ActiveCfg = Development
+		{567F4684-FCCD-47B9-AB91-A0526D682163}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {899C4379-BD38-47C0-97A2-D4BA2393FEE8}
+	EndGlobalSection
+EndGlobal

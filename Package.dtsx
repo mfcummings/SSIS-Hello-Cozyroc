@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/18/2020 11:27:42 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="ARES"
+  DTS:CreatorName="ARES\mfcAdmin"
+  DTS:DTSID="{7F610AE7-DDA2-4BF2-8763-D6BF6FC9C00C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.93"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{0F88E4BD-22FE-4EB6-B0A0-4A82260E043B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Data Flow Task Plus"
+      DTS:CreationName="CozyRoc.Pipeline"
+      DTS:Description="Data Flow Task Plus"
+      DTS:DTSID="{DEDDA900-D0CD-4E38-A195-CC1B71014525}"
+      DTS:ExecutableType="CozyRoc.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task Plus"
+      DTS:TaskContact="Data Flow Task Plus;CozyRoc LLC; SSIS+; © 2006-2020 COZYROC LLC; All Rights Reserved; http://www.cozyroc.com/;0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <ScriptProject
+            Name="ST_47c44b2b22f14139991d0fb1c4f36c32"
+            VSTAMajorVersion="14"
+            VSTAMinorVersion="0"
+            Language="CSharp" />
+          <ArrayOfDynamicComponentProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Data Flow Task Plus"
+          TopLeft="313.5,161.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
